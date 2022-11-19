@@ -15,7 +15,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.png"
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/html_jg2kav.png"
                   width="64"
                   height="64"
                   alt="/"
