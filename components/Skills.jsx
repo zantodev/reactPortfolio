@@ -14,7 +14,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <img
                   src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/html_jg2kav.png"
                   width="64"
                   height="64"
@@ -30,8 +30,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/css.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/css_dtdpme.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -46,8 +46,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/javascript.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824788/samples/skills/javascript_fmrxcw.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -62,8 +62,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/github1.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824788/samples/skills/github1_gnkmza.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -78,8 +78,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/mongo.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/mongo_sbqlfa.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -94,8 +94,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/node.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/node_bvzg5t.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -110,8 +110,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/react.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/react_nedjyy.png"
                   width="64"
                   height="64"
                   alt="/"
@@ -126,8 +126,8 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/tailwind.png"
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/tailwind_exjbd8.png"
                   width="64"
                   height="64"
                   alt="/"
