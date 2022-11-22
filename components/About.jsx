@@ -26,7 +26,8 @@ const About = () => {
             others.
           </p>
           <p className="py-2 text-gray-600">
-            I like to spend my free time with my family, my dogs, riding motorcycles, hiking, and coaching kids football.
+            I like to spend my free time with my family, my dogs, riding
+            motorcycles, hiking, and coaching kids football.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects.
@@ -35,7 +36,7 @@ const About = () => {
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
           <img
             className="rounded-xl"
-            src="https://res.cloudinary.com/dck687wut/image/upload/v1668819913/B366EB33-5DB3-4F50-A8BF-7059CF222463_1_102_a_eqdycn.jpg"
+            src="https://res.cloudinary.com/dck687wut/image/upload/v1669088293/2EE461EA-A4AE-41E4-AC26-333777E0297C_1_201_a-removebg-preview_a78gym.png"
             alt=""
           />
         </div>

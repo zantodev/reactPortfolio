@@ -18,7 +18,7 @@ const netflix = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Full-Stack Chat App</h2>
+          <h2 className="py-2">Full-Stack Photo Sharing Web App</h2>
           <h3>React JS / Tailwind / Netlify / JavaScript </h3>
         </div>
       </div>
@@ -28,14 +28,11 @@ const netflix = () => {
           {/* <p>Project</p> */}
           <h2 className="py-4 text-lg">Project Overview</h2>
           <p className="py-4">
-            This app was built using React Js and is hosted on Netlify. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property informatin as well as the specific location
-            of the property integrated with the Google Maps API. User
-            authentication in available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties This is made possible with Zillow API.
+            This is a photo sharing application built using modern full-stack
+            Technologies. The back-end was build with node, ejs, and oauth for
+            authenticaiton. A user can make an account, upload photos, see other
+            user's photos, leave likes and comments as well as delete any from
+            the options.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4">Code</button>
@@ -60,16 +57,16 @@ const netflix = () => {
                 <RiRadioButtonFill className="pr-1" /> Node.JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Express 
+                <RiRadioButtonFill className="pr-1" /> Express
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> MongoDB 
+                <RiRadioButtonFill className="pr-1" /> MongoDB
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-            <p className="underline cursor-pointer">Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>

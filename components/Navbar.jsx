@@ -1,10 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu, AiFillTwitterCircle } from "react-icons/ai";
+import {
+  AiOutlineClose,
+  AiOutlineMail,
+  AiOutlineMenu,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaAngellist } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import * as Scroll from 'react-scroll';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -45,7 +52,7 @@ const Navbar = () => {
 
   return (
     <div
-    style={{ backgroundColor: `${navBG}` }}
+      style={{ backgroundColor: `${navBG}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -60,20 +67,24 @@ const Navbar = () => {
             width="125"
             height="50"
           /> */}
-          <h1 className="text-[#5651e5] px-4">
-            tz
-          </h1>
+          <h1 className="text-[#5651e5] px-4">tz</h1>
         </Link>
         <div>
-          <ul style={{color: `${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Home
+              </li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+            <Link href="#about" className="test6" to="#about" spy={true} smooth={true} duration={500}>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
@@ -115,9 +126,7 @@ const Navbar = () => {
                   height="35"
                   alt="/"
                 /> */}
-                <h1 className="text-[#5651e5] px-4">
-            tz
-          </h1>
+                <h1 className="text-[#5651e5] px-4">tz</h1>
               </Link>
               <div
                 onClick={handleNav}
@@ -167,25 +176,25 @@ const Navbar = () => {
                 Lets connect!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="https://www.linkedin.com/in/z-tony/" target='_blank'>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
+                <a href="https://www.linkedin.com/in/z-tony/" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
                 </a>
-                <a href="https://github.com/zantodev" target='_blank'>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
+                <a href="https://github.com/zantodev" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
                 </a>
-                <a href="https://twitter.com/tonyhelloworld" target='_blank'>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillTwitterCircle />
-                </div>
+                <a href="https://twitter.com/tonyhelloworld" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillTwitterCircle />
+                  </div>
                 </a>
-                <a href="https://angel.co/u/tony-zanto" target='_blank'>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaAngellist />
-                </div>
+                <a href="https://angel.co/u/tony-zanto" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaAngellist />
+                  </div>
                 </a>
               </div>
             </div>
