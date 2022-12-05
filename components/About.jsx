@@ -13,25 +13,28 @@ const About = () => {
             // I am not your normal developer
           </p> */}
           <p className="py-2 text-gray-600">
-            I'm a passionate software engineer who constantly seeks out new
-            technologies and innovative solutions to everyday problems. In my
-            five years as a freelance web developer, I've honed my analytical
-            thinking and collaboration skills, and I love working with different
-            teams.
+            I am a creative and detail-oriented Full-Stack Software Engineer
+            experienced in building web applications for small and large
+            businesses. With 6 years of experience in the logistics field, I
+            have discovered the lack of quality tracking applications needed for
+            this fast-paced industry. This led me to my current path and passion
+            to create technologies for businesses that have fallen behind in the
+            new tech based world. As a freelance agent, I have provided clients
+            with a user-friendly interface for their business using Javascript,
+            React, and Node to reflect the company's brand.
           </p>
           <p className="py-2 text-gray-600">
-            While freelancing, I completed a one-year internship, where I honed
-            my web app development skills, including modern web technologies
-            such as, MongoDB, Express.JS, REACT.JS, Node.JS, Tailwind CSS, and
-            others.
+            I am now seeking to join a company with a global reach and work with
+            a team to provide my skills and follow my interest in helping
+            businesses update their systems
           </p>
-          <p className="py-2 text-gray-600">
+          {/* <p className="py-2 text-gray-600">
             I like to spend my free time with my family, my dogs, riding
             motorcycles, hiking, and coaching kids football.
-          </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
+          </p> */}
+          {/* <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects.
-          </p>
+          </p> */}
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
           <img

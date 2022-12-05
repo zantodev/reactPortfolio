@@ -10,8 +10,6 @@ import {
 import { FaGithub, FaLinkedinIn, FaAngellist } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import * as Scroll from 'react-scroll';
-
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -72,19 +70,20 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Home
-              </li>
+              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="#about" className="test6" to="#about" spy={true} smooth={true} duration={500}>
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                About
-              </li>
+            <Link
+              href="#about"
+              className="test6"
+              to="#about"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Skills
-              </li>
+              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
@@ -96,6 +95,14 @@ const Navbar = () => {
                 Contact
               </li>
             </Link>
+            <a
+              href="https://docs.google.com/document/d/1qYZYdcqRpUkdcvJGDkhBmu2qRXUA2-4PfyBkuXJ3SB0/edit?usp=sharing"
+              target="_blank"
+            >
+              <button className="rounded-xl ml-10 test-sm p-1 text-gray-100">
+                Resume
+              </button>
+            </a>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -176,7 +183,10 @@ const Navbar = () => {
                 Lets connect!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="https://www.linkedin.com/in/z-tony/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/tonyhelloworld/"
+                  target="_blank"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
@@ -191,7 +201,7 @@ const Navbar = () => {
                     <AiFillTwitterCircle />
                   </div>
                 </a>
-                <a href="https://angel.co/u/tony-zanto" target="_blank">
+                <a href="https://angel.co/u/tonyhelloworld" target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaAngellist />
                   </div>
