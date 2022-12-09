@@ -67,19 +67,12 @@ const Navbar = () => {
           /> */}
           <h1 className="text-[#5651e5] px-4">tz</h1>
         </Link>
-        <div>
+        <div className="pt-4">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link
-              href="#about"
-              className="test6"
-              to="#about"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#skills">
@@ -95,18 +88,25 @@ const Navbar = () => {
                 Contact
               </li>
             </Link>
-            <a
-              href="https://docs.google.com/document/d/1qYZYdcqRpUkdcvJGDkhBmu2qRXUA2-4PfyBkuXJ3SB0/edit?usp=sharing"
-              target="_blank"
-            >
-              <button className="rounded-xl ml-10 test-sm p-1 text-gray-100">
+          </ul>
+        </div>
+        <div className="hidden md:flex">
+          <a
+            href="https://docs.google.com/document/d/1qYZYdcqRpUkdcvJGDkhBmu2qRXUA2-4PfyBkuXJ3SB0/edit?usp=sharing"
+            target="_blank"
+          >
+            <div class="flex space-x-2 justify-center ">
+              <button
+                type="button"
+                class="inline-block ml-10 px-6 py-2.5 bg-[#5651e5] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              >
                 Resume
               </button>
-            </a>
-          </ul>
-          <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} />
-          </div>
+            </div>
+          </a>
+        </div>
+        <div onClick={handleNav} className="md:hidden">
+          <AiOutlineMenu size={25} />
         </div>
       </div>
 
