@@ -30,7 +30,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h1 className="py-4">Tony Zepeda</h1>
+                <h1 className="py-4 text-[#5651e5]">Tony Zepeda</h1>
                 <h2 className="py-2">Software Engineer</h2>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact

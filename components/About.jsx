@@ -1,33 +1,58 @@
 import React from "react";
+import { GoPrimitiveDot } from "react-icons/go";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+    <div id="about" className="w-full  p-2 flex items-center my-16 ">
+      <div className="max-w-7xl m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-3xl tracking-widest text-[#5651e5]">
             About
           </p>
           <h2 className="py-4 text-2xl">Who I Am</h2>
+          {/* <p className="py-2 text-gray-600">I am not your normal developer</p> */}
+          <div className="w-full">
+            <div className="flex py-4">
+              <div className="flex justify-center items-center px-2">
+                <GoPrimitiveDot />
+              </div>
+              <div>
+                <h3>
+                  2+ Years experience as a freelance web developer using
+                  WordPress, HTML, CSS, and JavaScript.
+                </h3>
+              </div>
+            </div>
+            <div className="flex py-4">
+              <div className="flex justify-center items-center px-2">
+                <GoPrimitiveDot />
+              </div>
+              <div>
+                <h3>1+ Year using Node.JS, Express.JS, mongoDB Recently.</h3>
+              </div>
+            </div>
+            <div className="flex py-4">
+              <div className="flex justify-center items-center px-2">
+                <GoPrimitiveDot />
+              </div>
+              <div>
+                <h3>
+                  I started getting familiar with frameworks like Vite.JS,
+                  React.JS, and Tailwind CSS, targeting Full-Stack specific
+                  roles.
+                </h3>
+              </div>
+            </div>
+          </div>
+          {/* <h5 className="py-2 text-gray-600">
+            1+ Year using Node.JS, Express.JS,
+            mongoDB Recently, I started getting familiar with frameworks like
+            Vite.JS, React.JS, and Tailwind CSS, targeting Full-Stack specific
+            roles.
+          </h5> */}
           {/* <p className="py-2 text-gray-600">
-            // I am not your normal developer
+            I am now seeking a role in a full-stack enviroment.
           </p> */}
-          <p className="py-2 text-gray-600">
-            I am a creative and detail-oriented Full-Stack Software Engineer
-            experienced in building web applications for small and large
-            businesses. With 6 years of experience in the logistics field, I
-            have discovered the lack of quality tracking applications needed for
-            this fast-paced industry. This led me to my current path and passion
-            to create technologies for businesses that have fallen behind in the
-            new tech based world. As a freelance agent, I have provided clients
-            with a user-friendly interface for their business using Javascript,
-            React, and Node to reflect the company's brand.
-          </p>
-          <p className="py-2 text-gray-600">
-            I am now seeking to join a company with a global reach and work with
-            a team to provide my skills and follow my interest in helping
-            businesses update their systems
-          </p>
           {/* <p className="py-2 text-gray-600">
             I like to spend my free time with my family, my dogs, riding
             motorcycles, hiking, and coaching kids football.

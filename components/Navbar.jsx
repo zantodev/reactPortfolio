@@ -57,7 +57,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center max-w-7xl h-full ">
         <Link href="/">
           {/* <Image
             src="/../public/assets/navLogo.png"
@@ -65,7 +65,7 @@ const Navbar = () => {
             width="125"
             height="50"
           /> */}
-          <h1 className="text-[#5651e5] px-4">tz</h1>
+          <h1 className="text-[#5651e5] ">tz</h1>
         </Link>
         <div className="pt-4">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
