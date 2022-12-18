@@ -13,30 +13,32 @@ const About = () => {
           {/* <p className="py-2 text-gray-600">I am not your normal developer</p> */}
           <div className="w-full">
             <div className="flex py-4">
-              <div className="flex justify-center items-center px-2">
+              <div className="flex justify-center items-center px-2 text-2xl">
                 <GoPrimitiveDot />
               </div>
               <div>
-                <h3>
+                <h2 className="text-2xl">
                   2+ Years experience as a freelance web developer using
                   WordPress, HTML, CSS, and JavaScript.
+                </h2>
+              </div>
+            </div>
+            <div className="flex py-4">
+              <div className="flex justify-center items-center px-2 text-2xl">
+                <GoPrimitiveDot />
+              </div>
+              <div>
+                <h3 className="text-2xl">
+                  1+ Year using Node.JS, Express.JS, mongoDB Recently.
                 </h3>
               </div>
             </div>
             <div className="flex py-4">
-              <div className="flex justify-center items-center px-2">
+              <div className="flex justify-center items-center px-2 text-2xl">
                 <GoPrimitiveDot />
               </div>
               <div>
-                <h3>1+ Year using Node.JS, Express.JS, mongoDB Recently.</h3>
-              </div>
-            </div>
-            <div className="flex py-4">
-              <div className="flex justify-center items-center px-2">
-                <GoPrimitiveDot />
-              </div>
-              <div>
-                <h3>
+                <h3 className="text-2xl">
                   I started getting familiar with frameworks like Vite.JS,
                   React.JS, and Tailwind CSS, targeting Full-Stack specific
                   roles.
