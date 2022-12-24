@@ -6,10 +6,10 @@ const About = () => {
     <div id="about" className="w-full  p-2 flex items-center my-16 ">
       <div className="max-w-7xl m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-3xl tracking-widest text-[#5651e5]">
-            About
+          <p className="uppercase text-3xl tracking-widest text-[#5651e5] py-4 text-2xl">
+            Who I Am
           </p>
-          <h2 className="py-4 text-2xl">Who I Am</h2>
+          {/* <h2 className="py-4 text-2xl">Who I Am</h2> */}
           {/* <p className="py-2 text-gray-600">I am not your normal developer</p> */}
           <div className="w-full">
             <div className="flex py-4">
