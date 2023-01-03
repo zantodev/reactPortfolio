@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <a
-            href="https://docs.google.com/document/d/1qYZYdcqRpUkdcvJGDkhBmu2qRXUA2-4PfyBkuXJ3SB0/edit?usp=sharing"
+            href="https://1drv.ms/w/s!AoSZXPE_pA6bkHTDgqNMSlM25XpT?e=XgDrDa"
             target="_blank"
           >
             <div class="flex space-x-2 justify-center ">
