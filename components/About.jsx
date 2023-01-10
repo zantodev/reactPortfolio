@@ -18,8 +18,8 @@ const About = () => {
               </div>
               <div>
                 <h2 className="text-2xl">
-                  2+ Years experience as a freelance web developer using
-                  WordPress, HTML, CSS, and JavaScript.
+                  Experienced freelance web developer using JavaScipt, HTML,
+                  CSS, Node.JS, Express.JS, and MongoDB.
                 </h2>
               </div>
             </div>
@@ -29,19 +29,8 @@ const About = () => {
               </div>
               <div>
                 <h3 className="text-2xl">
-                  1+ Year using Node.JS, Express.JS, mongoDB Recently.
-                </h3>
-              </div>
-            </div>
-            <div className="flex py-4">
-              <div className="flex justify-center items-center px-2 text-2xl">
-                <GoPrimitiveDot />
-              </div>
-              <div>
-                <h3 className="text-2xl">
-                  I started getting familiar with frameworks like Vite.JS,
-                  React.JS, and Tailwind CSS, targeting Full-Stack specific
-                  roles.
+                  Also experienced with frameworks like Vite.JS, React.JS, and
+                  Tailwind CSS, targeting Full-Stack specific roles.
                 </h3>
               </div>
             </div>
@@ -63,13 +52,13 @@ const About = () => {
             Check out some of my latest projects.
           </p> */}
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
+        {/* <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
           <img
             className="rounded-xl"
             src="https://res.cloudinary.com/dck687wut/image/upload/v1669088293/2EE461EA-A4AE-41E4-AC26-333777E0297C_1_201_a-removebg-preview_a78gym.png"
             alt=""
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
