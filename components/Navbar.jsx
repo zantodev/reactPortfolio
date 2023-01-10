@@ -50,12 +50,13 @@ const Navbar = () => {
 
   return (
     <div
+      className="fixed w-screen pr-6"
       style={{ backgroundColor: `${navBG}` }}
-      className={
-        shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
-      }
+      // className={
+      //   shadow
+      //     ? "fixed w-full h-20 shadow-xl z-[100]"
+      //     : "fixed w-full h-20 z-[100]"
+      // }
     >
       <div className="flex justify-between items-center max-w-7xl h-full pr-4">
         <Link href="/">
@@ -98,7 +99,7 @@ const Navbar = () => {
             <div class="flex space-x-2 justify-center ">
               <button
                 type="button"
-                class="inline-block ml-10 px-6 py-2.5 bg-[#5651e5] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block  px-6 py-2.5 bg-[#5651e5] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Resume
               </button>
