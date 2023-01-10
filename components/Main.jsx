@@ -11,7 +11,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
-    <div id="home" className="mx-auto max-w-7xl pt-48 ">
+    <div id="home" className="mx-auto max-w-7xl pt-44 ">
       <div className="mx-auto justify-center ">
         <div className="w-full">
           <h1 className="py-4 w-full text-gray-700">
