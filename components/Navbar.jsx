@@ -120,7 +120,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-full h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -148,6 +148,7 @@ const Navbar = () => {
               </p>
             </div>
           </div>
+
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
@@ -176,6 +177,22 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
+
+            <div className="py-4 flex flex-col">
+              <a
+                href="https://docs.google.com/document/d/1qYZYdcqRpUkdcvJGDkhBmu2qRXUA2-4PfyBkuXJ3SB0/edit?usp=sharing"
+                target="_blank"
+              >
+                <div class="flex space-x-2">
+                  <button
+                    type="button"
+                    class="inline-block  px-6 py-2.5 bg-[#5651e5] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  >
+                    Resume
+                  </button>
+                </div>
+              </a>
+            </div>
 
             {/* Socials */}
             <div className="pt-40">
