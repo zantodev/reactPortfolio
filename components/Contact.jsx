@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-3xl tracking-widest uppercase text-[#5751e5] py-4 text-2xl">
+        <p className="text-3xl tracking-widest uppercase text-[#5751e5] py-4">
           Get In Touch
         </p>
         <div className="grid lg:grid-cols-5 gap-8">
