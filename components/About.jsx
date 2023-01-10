@@ -12,25 +12,22 @@ const About = () => {
           {/* <h2 className="py-4 text-2xl">Who I Am</h2> */}
           {/* <p className="py-2 text-gray-600">I am not your normal developer</p> */}
           <div className="w-full">
-            <div className="flex py-4">
-              <div className="flex justify-center items-center px-2 text-2xl">
-                <GoPrimitiveDot />
-              </div>
-              <div>
-                <h2 className="text-2xl">
-                  Experienced freelance web developer using JavaScipt, HTML,
-                  CSS, Node.JS, Express.JS, and MongoDB.
-                </h2>
+            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="flex flex-col items-center justify-center">
+                <h3>
+                  Software Engineer with a proven track record of creating and
+                  implementing successful front and back-end web applications
+                  with a strong understanding of HTML, CSS, and JavaScript.
+                </h3>
               </div>
             </div>
-            <div className="flex py-4">
-              <div className="flex justify-center items-center px-2 text-2xl">
-                <GoPrimitiveDot />
-              </div>
-              <div>
-                <h3 className="text-2xl">
-                  Also experienced with frameworks like Vite.JS, React.JS, and
-                  Tailwind CSS, targeting Full-Stack specific roles.
+            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="flex flex-col items-center justify-center">
+                <h3>
+                  Background experience in fire suppression systems. Community
+                  volunteer as a coach for local kids basketball and football
+                  teams. I’m looking to bring my software skills to a tech
+                  company with global reach.
                 </h3>
               </div>
             </div>
@@ -52,13 +49,13 @@ const About = () => {
             Check out some of my latest projects.
           </p> */}
         </div>
-        {/* <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300">
           <img
             className="rounded-xl"
-            src="https://res.cloudinary.com/dck687wut/image/upload/v1669088293/2EE461EA-A4AE-41E4-AC26-333777E0297C_1_201_a-removebg-preview_a78gym.png"
+            src="https://res.cloudinary.com/dck687wut/image/upload/v1673386963/AA490DE9-F829-4362-B446-725125A23E46_1_105_c_rdibkg.jpg"
             alt=""
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

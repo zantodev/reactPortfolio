@@ -14,6 +14,54 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824788/samples/skills/javascript_fmrxcw.png"
+                  width="64"
+                  height="64"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>JavaScript</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/node_bvzg5t.png"
+                  width="64"
+                  height="64"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Node</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <img
+                  src="https://res.cloudinary.com/dck687wut/image/upload/v1673387573/icons8-express-js-250_amnrou.png"
+                  width="64"
+                  height="64"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Express.JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <img
                   src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/html_jg2kav.png"
                   width="64"
                   height="64"
@@ -46,22 +94,6 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824788/samples/skills/javascript_fmrxcw.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>JavaScript</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <img
                   src="https://res.cloudinary.com/dck687wut/image/upload/v1668824788/samples/skills/github1_gnkmza.png"
                   width="64"
                   height="64"
@@ -86,38 +118,6 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MongoDB</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <img
-                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/node_bvzg5t.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Node</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <img
-                  src="https://res.cloudinary.com/dck687wut/image/upload/v1668824789/samples/skills/react_nedjyy.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>React</h3>
               </div>
             </div>
           </div>
