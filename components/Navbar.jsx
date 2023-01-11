@@ -93,7 +93,7 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <a
-            href="https://drive.google.com/file/d/1Pacg04WwkPPYcH3YUIF1qES3Smc7ftXp/view?usp=sharing"
+            href="https://drive.google.com/file/d/1yInO_9BFZg5E_x82CsAy05At1nTsMtp5/view?usp=sharing"
             target="_blank"
           >
             <div class="flex space-x-2 justify-center ">
@@ -181,7 +181,7 @@ const Navbar = () => {
 
             <div className="py-4 flex flex-col">
               <a
-                href="https://drive.google.com/file/d/1Pacg04WwkPPYcH3YUIF1qES3Smc7ftXp/view?usp=sharing"
+                href="https://drive.google.com/file/d/1yInO_9BFZg5E_x82CsAy05At1nTsMtp5/view?usp=sharing"
                 target="_blank"
               >
                 <div class="flex space-x-2">
